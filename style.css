@@ -1,0 +1,138 @@
+.attribution { font-size: 11px; text-align: center; display: none}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face { font-family: "Young Serif"; src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf'); } 
+@font-face { font-family: Outfit; src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf'); } 
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+
+}
+
+h1, h2 {
+    font-family: "Young Serif";
+    padding: 0px 35px
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+p, li, tr {
+    font-size: 16px;
+    font-family: "Outfit";
+    line-height: 32px;
+    padding: 0px 35px
+}
+
+h3 {
+    font-family: "Outfit";
+    font-size: 18px;
+    color: hsl(332, 51%, 32%);
+    padding: 0px 20px
+
+}
+
+.rose {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+img {
+    width: 680px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    color: hsl(332, 51%, 32%);
+    text-indent: -5px;
+}
+
+li span {
+    color: hsl(24, 5%, 18%)
+}
+
+.ingredients {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions {
+    color: hsl(14, 45%, 36%);
+
+}
+
+ul {
+    padding-left: 60px;
+}
+
+ol {
+    padding-left: 60px;
+}
+
+ol li {
+    padding-left: 16px;
+    text-indent: 0;
+}
+
+
+ol{
+    list-style: none;
+}
+ol li{
+    counter-increment: num;
+}
+ol li::before { 
+    content: counter(num) "."; 
+    margin-right: 1.25rem;
+    margin-left: -2rem;
+    font-weight: bold; 
+    color: hsl(14, 45%, 36%);
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding-left: 70px;
+}
+
+#row4 td {
+    border-bottom: none;
+}
+
+table {
+    margin-left: 35px;
+    margin-right: 35px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.brown-text {
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 54%, 90%);  /* Modern Browsers */
+    width: 93%
+
+}
+
+.background {
+    width: 750px;
+    margin: auto; 
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
